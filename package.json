@@ -1,0 +1,72 @@
+{
+	"name": "@universalweb/viat-site",
+	"appId": "universalWeb.browser",
+	"author": "Universal Web",
+	"type": "module",
+	"auto-changelog": {
+		"commitLimit": false,
+		"output": "CHANGELOG.md",
+		"template": "./keepachangelog.hbs",
+		"unreleased": true
+	},
+	"bugs": {
+		"url": "https://github.com/universalweb/viat-site/issues"
+	},
+	"company": "Universal Web, Inc",
+	"dependencies": {
+		"@universalweb/utilitylib": "github:universalweb/utilitylib",
+		"directory-tree": "^3.5.2",
+		"fs-extra": "^11.3.1",
+		"node-watch": "^0.7.4",
+		"nodemon": "^3.1.10"
+	},
+	"description": "VIAT Site",
+	"engines": {
+		"node": ">=21.2.0"
+	},
+	"homepage": "https://viat.network",
+	"license": "ISC",
+	"nodemonConfig": {
+		"delay": 2500,
+		"execMap": {
+			"js": "node"
+		},
+		"ignore": [
+			"node_modules/",
+			"**.json"
+		]
+	},
+	"imports": {},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/universalweb/viat-site.git"
+	},
+	"publishConfig": {
+		"access": "public"
+	},
+	"scripts": {
+		"docs": "nodemon ./generate.js"
+	},
+	"version": "3.0.7",
+	"devDependencies": {
+		"@babel/core": "^7.28.3",
+		"@babel/eslint-parser": "^7.28.0",
+		"@babel/preset-env": "^7.28.3",
+		"@stylistic/eslint-plugin": "^5.3.1",
+		"auto-changelog": "^2.5.0",
+		"axios": "^1.11.0",
+		"eslint": "^9.34.0",
+		"eslint-plugin-jsdoc": "^54.3.0",
+		"globals": "^16.3.0",
+		"textlint": "^15.2.2"
+	},
+	"pnpm": {
+		"overrides": {},
+		"onlyBuiltDependencies": [
+			"core-js",
+			"os-utils",
+			"os"
+		]
+	},
+	"packageManager": "pnpm@10.15.1"
+}

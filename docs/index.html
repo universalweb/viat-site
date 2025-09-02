@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>VIAT</title>
+		<link rel="stylesheet" href="https://mshaugh.github.io/nerdfont-webfonts/build/jetbrainsmono.css" />
+		<link rel="stylesheet" href="index.css" />
+	</head>
+
+	<body>
+		<div class="content"> <h1 align="center" style="border: none; margin-bottom: none;">⩝</h1>
+<h1 align="center" style="border: none; margin-bottom: none;">VIAT</h1>
+<h3 align="center" class="mono">  <a href="https://github.com/universalweb/Network/tree/master/viat">GITHUB</a> | <a href="https://x.com/tommarchi/">DEV</a> | <a href="" style="text-transform: none;">mVIAT</a>  </h3>
+<hr />
+<p align="center">󰢷 LAYERED DYNAMIC PROOF-OF-WORK 󰽙</p>
+<p align="center"> REAL-TIME POST-QUANTUM CRYPTOCURRENCY </p>
+<hr />
+<div class="mainSection"><div class="mainSection">
+	<h4 align="center"> INTRO </h4>
+	<p>VIAT /ˈviː.æt/ is a bleeding-edge layered-dynamic-proof-of-work HYBRID-post-quantum multi-algo cryptocurrency. Viat is designed for realtime decentralized validation, extreme decentralized scalability, decentralized block creation, asynchronous architecture, and the highest security potential. Each transaction is treated as its own block, allowing massive parallelism and constant-time lookups through a modular extendable trie-based filesystem optimized for SPECIFIC modernized filesystems on modern SSDs. Viat’s blockchain architecture is a general purpose superstructure with specialized self-constructing branches that incorporates both linear and dag based blockchains. Wallets have their own localized chains while global state is brought to order by two types of miners: arbiters for validation and auditors for canonical history. This design creates a linear relationship between network hardware resources and max tps potential through massive parallel decentralized validation.</p>
+	<hr style="margin: 25px auto; width: 75%" />
+	<p>  <span style="margin-left: 10px"> SYMBOL: <a href="https://www.compart.com/en/unicode/U+2A5D">⩝</a></span>
+	</p>
+	<p> 󱕴 <span style="margin-left: 10px">SIGNATURE: [DILITHIUM ◉ ED25519 ◉ SPHINCS+]</span>
+	</p>
+	<p> 󰌇 <span style="margin-left: 10px">KEY EXCHANGE: [KYBER ◉ x25519]</span></p>
+	<p>  <span style="margin-left: 10px">HASH: SHAKE256  [64B 512bits, 32B 256bits]</span></p>
+	<p>  <span style="margin-left: 10px">STRICT HASH: SHA3-256 SHA3-512</span></p>
+	<p> 󰀋 <span style="margin-left: 10px">WALLET ADDRESS: 64bytes  SHAKE256-512bit output</span></p>
+	<p> 󱌒 <span style="margin-left: 10px">ENCRYPTION (AEAD): AEGIS-256 - XChaCha20Poly1305-IETF</span></p>
+	<p> 󰢷 <span style="margin-left: 10px">PROOF: Layered Dynamic Proof of Work</span></p>
+	<p> 󰢷 <span style="margin-left: 10px">PROOFS: PROOF-OF-WORK [PoW], PROOF-OF-STAKE [PoS] (OPT-IN), PROOF-OF-VERIFICATION [PoV], PROOF-OF-HISTORY [PoH]</span></p>
+	<p>  <span style="margin-left: 10px">BLOCKCHAIN: HIERARCHICAL BLOCK-TRIE SUPERSTRUCTURE</span></p>
+	<p>  <span style="margin-left: 10px">FILESYSTEM: PHYSICAL HIERARCHICAL SELF-ORGANIZING FILESYSTEM</span></p>
+	<p> 󰿨 <span style="margin-left: 10px">BLOCKCHAIN TYPES: [DAG ◉ LINEAR BLOCKCHAIN]</span></p>
+	<p> 󰘦 <span style="margin-left: 10px">ENCODING: CBOR-X  BINARY DATA SERIALIZATION FORMAT</span></p>
+	<hr style="margin: 25px auto; width: 75%" />
+</div>
+ <h1 align="center">F.A.Q</h1>
+	<h4 class="mono">Hybrid-Post-Quantum Signature Scheme</h4>
+	<p>VIAT uses a hybrid post-quantum signature scheme that balances speed, security, and long-term survivability. Each transaction is signed using both Ed25519—an efficient, widely adopted classical signature algorithm—and Dilithium, a NIST-selected post-quantum lattice-based scheme. This dual-signature approach ensures compatibility with existing systems while providing strong resistance to future quantum threats. As an added layer of resilience, SPHINCS+, a conservative, stateless hash-based signature, is included as a non-default fallback (primarily used by auditors) to safeguard against the failure or deprecation of either primary scheme. This layered cryptographic design offers robust protection and future-proof assurance, especially suited for risk-averse users and institutions.</p>
+	<h4 class="mono">What proof types are used?</h4>
+	<p>Viat’s proof model combines multiple layers of security and validation through several mechanisms: Proof-of-Work (PoW), Proof-of-Funds (PoF), Proof-of-Stake (PoS), Proof-of-Verification (PoV), and Proof-of-History (PoH). As transactions move through the network, different proofs are applied at each stage.</p>
+	<p>Every block includes some form of useful PoW alongside a proof specific to its function. Transaction (TX) blocks use PoF to confirm available funds. Arbiter blocks apply PoV to validate the transaction. Audit blocks add PoH, linking multiple arbiter blocks to anchor the transaction in historical context. Staking blocks employ PoS, allowing auditors and arbiters to opt into consensus.</p>
+	<p>Together, these proofs form a layered system that enables real-time verification while securing a canonical order of events within the blockchain.</p>
+	<h4 class="mono">What is VIAT's Superstructure</h4>
+	<p>VIAT features a self-organizing, hierarchical superstructure implemented as a physical filesystem that seamlessly integrates both linear and DAG-based blockchains. This design enables deterministic structure, asynchronous operations, constant-time lookups, and high-throughput parallel processing.</p>
+	<p>VIAT’s superstructure provides a general structure from which its self-organizing branches emerge. The VIAT superstructure defines the overall geometry of both the blockchain and the underlying physical filesystem, establishing the dimensions of the Viat state. While the physical pathing of the superstructure is locally agnostic, a standard pathing protocol exists between nodes to ensure seamless communication.</p>
+	<hr />
+	<h4 class="mono">BROAD CODE OBJECTIVES</h4>
+	<ul>
+		<li>VIAT (NATIVE CRYPTOCURRENCY)</li>
+		<li>WALLET CLI & GUI</li>
+		<li>MINING CLI & GUI</li>
+		<li>NATIVE DECENTRALIZED EXCHANGE</li>
+		<li>NATIVE TOKEN CREATION</li>
+		<li>SMART CONTRACTS</li>
+		<li>CUSTOM UDP BASED NETWORK PROTOCOL UDSP</li>
+		<li>dApps</li>
+	</ul>
+	<hr />
+	<h4 class="mono">CODE REPO SUMMARY</h4>
+	<ul>
+		<li>
+			<a href="https://github.com/universalweb/Network/tree/master/examples/viat.js">VIAT</a>
+		</li>
+		<li>
+			<a href="https://github.com/universalweb/Network/tree/master/udsp/">NETWORK DATA TRANSPORT PROTOCOL (UDSP)</a>
+		</li>
+		<li>
+			<a href="https://github.com/universalweb/Network/tree/master/udsp/server">SERVER MODULE</a>
+		</li>
+		<li>
+			<a href="https://github.com/universalweb/Network/tree/master/udsp/client">CLIENT MODULE</a>
+		</li>
+		<li>
+			<a href="https://github.com/universalweb/Network/tree/master/examples/serverApp">EXAMPLE APP</a>
+		</li>
+		<li>
+			<a href="https://github.com/universalweb/Network/tree/master/examples/certificates.js">DEMO CERTS</a>
+		</li>
+	</ul>
+	<br />
+	<hr />
+	<h4 align="center">Want to contribute? Then join the Imperium today!</h4>
+	<p align="center"> To help write content, make art, write code, share it, and or star our repo! All are welcome. </p>
+	<hr />
+	<small>COPYRIGHT © 2025 VIAT</small>
+	<br />
+	<small>MADE IN AMERICA 🇺🇸</small>
+	<br />
+	<small>In memory of Amy (1993 – 2025), a truly kind person.</small>
+ </div>
+	</body>
+
+</html>
